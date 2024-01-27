@@ -1,0 +1,32 @@
+===================================================================0
+===================================================================0
+MANUAL DE COMANDOS DO VIM
+===================================================================0
+===================================================================0
+i - insere na posição do cursor
+a - insere uma posição a frente do cursor
+A - Insere na ultima coluna da linha.
+h,j,k,l - navegação no modo normal.
+ESC - sai do modo inserção
+O - Habilita inserção na linha atual do cursor
+o - Habilita inserção uma linha abaixo do cursor
+p - Insere um texto(nº linhas) copiado, uma linha abaixo do cursor
+P - Insere um texto(nº linhas) copiado, na linha atual do cursor
+nºdd (dnºd) (d4d) - deleta o nº de linhas a partir da linha atual do cursor
+nºyy (ynºy) (y4y)- copia o nº de linhas a partir da linha atual do cursor
+R - habilita o replace n caracteres
+r - habilita o replace um caracter
+u - (undo) desfaz as ultimas alterações
+Ctrl + r - redo desfaz o undo
+:q - sai se o arquivo não foi alterado.
+:q! ou qa! ou quitall! - Força a saida do arquivo sem salvar as alterações feitas.
+:w - escreve sem sair do arquivo
+:wq ou wq! - Escreve no arquivo e sai.
+nºd + l ou h (setas do teclado) apagam caracteres da linha a partir da posição atual do cursor (setas cima ou baixo apagam n linhas)
+nºy + l ou h (setas do teclado) copiam caracteres da linha a partir da posição atual do cursor (Setas cima ou baixo copiam n linhas)
+ZZ - Salva e sai do arquivo sem perguntar
+G - navega para ultima linha do arquivo na coluna 1
+gg - navega para primeira linha do arquivo na coluna 1
+/ - habilita pesquisa no vim
+? - habilita pesquina no vim utilizando expressões regulares (regex)
+nN - utilizado na pesquisa para ir pra frente na pesquisa ou ir para traz na pesquina
